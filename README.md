@@ -1,9 +1,14 @@
 # phone_validator
 In RUBY
 
+
+
 #reglar expression for validating nos in different scenarios
 #^(?:(?:\+|0{0,2})91(\s*[\ -]\s*)?|[0]?)?[789]\d{9}|(\d[ -]?){10}\d$
-"""
+
+
+
+
 Valid Scenarios:
 
 +91-9883443344
@@ -28,6 +33,9 @@ Valid Scenarios:
 02162-240000
 +91 9883443344
 022-24141414
+
+
+
 Invalid Scenarios:
 
 WAQU9876567892
@@ -38,4 +46,4 @@ ABCD9876541212
 0222-895612
 098-8956124
 022-2413184
-"""
+
